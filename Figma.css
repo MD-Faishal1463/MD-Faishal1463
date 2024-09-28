@@ -1,0 +1,65 @@
+/* In the Figma.css file, define global styles first, such as fonts, colors, and reset the default browser styling. */
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Your Font', sans-serif;
+    background-color: #f8f8f8; /* Background color from Figma */
+    color: #333; /* Text color from Figma */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* CSS for Hero Section: */
+
+.hero {
+    background-image: url('background-image.jpg'); /* Use background from Figma */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem; /* Font size from Figma */
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #ddd;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6347;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+
+
+
+/*Use media queries to adjust the layout for different screen sizes.*/
+
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+}
